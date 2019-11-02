@@ -1,5 +1,6 @@
 # Deep Generative Models on LINCS Data
 Python codes for the manuscript "Decode the Gene Expression State with Deep Generative Models and LINCS L1000 Data"
+
 This repository provides Python codes for preprocessing LINCS L1000 gene expression data and applying two deep generative models, Variational AutoEncoder (VAE) and Supervised Vector-Quantized Variational AutoEncoder (S-VQ-VAE) on the data for learning latent representations.
 VAE and S-VQ-VAE are implemented with Pytorch.
 
@@ -26,11 +27,13 @@ Codes for analyzing the latent representations of expression profiles learned wi
 #### VAE_logvar_SMP.pth
 Pretrained VAE model on SMP dataset.
 
+
 #### VAE_encode_GP.pth
 #### VAE_decode_GP.pth
 #### VAE_mu_GP.pth
 #### VAE_logvar_GP.pth
 Pretrained VAE model on GP dataset.
+
 
 #### VAE_encode_SMGP.pth
 #### VAE_decode_SMGP.pth
@@ -38,9 +41,11 @@ Pretrained VAE model on GP dataset.
 #### VAE_logvar_SMGP.pth
 Pretrained VAE model on SMGP dataset.
 
+
 #### S_VQ_VAE_decode.pth
 #### S_VQ_VAE_embedding.pth
 #### S_VQ_VAE_encode.pth
 Pretrained S-VQ-VAE models for learning global representations for PCLs.
+
 
 Another tutorial of how to apply S-VQ-VAE on MNIST dataset is available at [https://github.com/evasnow1992/S-VQ-VAE] (https://github.com/evasnow1992/S-VQ-VAE)
