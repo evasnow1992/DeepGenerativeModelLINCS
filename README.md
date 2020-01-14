@@ -1,5 +1,5 @@
 # Deep Generative Models on LINCS Data
-Python codes for the manuscript "Decode the Gene Expression State with Deep Generative Models and LINCS L1000 Data"
+Python codes for the manuscript "Learning to Encode Cellular Responses to Systematic Perturbations with Deep Generative Models"
 
 This repository provides Python codes for preprocessing LINCS L1000 gene expression data and applying two deep generative models, Variational AutoEncoder (VAE) and Supervised Vector-Quantized Variational AutoEncoder (S-VQ-VAE) on the data for learning latent representations.
 VAE and S-VQ-VAE are implemented with Pytorch.
