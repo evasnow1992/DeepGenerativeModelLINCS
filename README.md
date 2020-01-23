@@ -16,9 +16,7 @@ VAE and S-VQ-VAE are implemented with Pytorch.
 Due to the requirement of cmapPy, the script should be run with Python2 to avoid compatibility issue.
 
 ## Data
-The LINCS data are available from the Gene Expression Omnibus (GEO) with accession codes GSE70138 and GSE70138.
-https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70138
-https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70138
+The LINCS data are available from the Gene Expression Omnibus (GEO) with accession codes GSE70138 and GSE70138 (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70138; https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70138)
 
 The paper "A next generation connectivity map: L1000 platform and the first 1,000,000 profiles" provides the perturbagen class (PCL) information for small molecule perturpagens.
 
