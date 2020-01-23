@@ -22,45 +22,30 @@ Code for analyzing the latent representations of expression profiles learned wit
 * Reveal correlations between PCL global representations learned with S-VQ-VAE.
 
 
-**VAE_encode_SMP.pth**
-
-**VAE_decode_SMP.pth**
-
-**VAE_mu_SMP.pth**
-
-**VAE_logvar_SMP.pth**
-
+#### VAE_encode_SMP.pth
+#### VAE_decode_SMP.pth
+#### VAE_mu_SMP.pth
+#### VAE_logvar_SMP.pth
 Pretrained VAE model on SMP dataset.
 
 
-**VAE_encode_GP.pth**
-
-**VAE_decode_GP.pth**
-
-**VAE_mu_GP.pth**
-
-**VAE_logvar_GP.pth**
-
+#### VAE_encode_GP.pth
+#### VAE_decode_GP.pth
+#### VAE_mu_GP.pth
+#### VAE_logvar_GP.pth
 Pretrained VAE model on GP dataset.
 
 
-**VAE_encode_SMGP.pth**
-
-**VAE_decode_SMGP.pth**
-
-**VAE_mu_SMGP.pth**
-
-**VAE_logvar_SMGP.pth**
-
+#### VAE_encode_SMGP.pth
+#### VAE_decode_SMGP.pth
+#### VAE_mu_SMGP.pth
+#### VAE_logvar_SMGP.pth
 Pretrained VAE model on SMGP dataset.
 
 
-**S_VQ_VAE_decode.pth**
-
-**S_VQ_VAE_embedding.pth**
-
-**S_VQ_VAE_encode.pth**
-
+#### S_VQ_VAE_decode.pth
+#### S_VQ_VAE_embedding.pth
+#### S_VQ_VAE_encode.pth
 Pretrained S-VQ-VAE models for learning global representations for PCLs.
 
 
