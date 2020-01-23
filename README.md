@@ -21,6 +21,7 @@ Code for analyzing the latent representations of expression profiles learned wit
 * Predict drug-targets with latent representations of expression profiles.
 * Reveal correlations between PCL global representations learned with S-VQ-VAE.
 
+
 #### VAE_encode_SMP.pth
 #### VAE_decode_SMP.pth
 #### VAE_mu_SMP.pth
@@ -48,4 +49,4 @@ Pretrained VAE model on SMGP dataset.
 Pretrained S-VQ-VAE models for learning global representations for PCLs.
 
 
-Another tutorial of how to apply S-VQ-VAE on MNIST dataset is available at https://github.com/evasnow1992/S-VQ-VAE.
+A tutorial of how to apply S-VQ-VAE on MNIST dataset is available at https://github.com/evasnow1992/S-VQ-VAE.
