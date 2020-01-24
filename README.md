@@ -5,15 +5,17 @@ This repository provides Python code for preprocessing LINCS L1000 gene expressi
 VAE and S-VQ-VAE are implemented with Pytorch.
 
 ## Required enviroment and packages
-* numpy
-* matplotlib
-* pandas
+The code was tested on the following packages
+* numpy 1.16.2
+* matplotlib 3.0.3
+* pandas 0.23.4
 * cmapPy (for loading the LINCS datasets)
-* torch
-* sklearn
-* scipy
+* torch 0.4.1
+* sklearn 0.21.3
+* scipy 1.3.1
+* seaborn 0.9.0
 
-Due to the requirement of cmapPy, the script should be run with Python2 to avoid compatibility issue.
+Due to the requirement of cmapPy, the script should be run with Python2.7 to avoid compatibility issue.
 
 ## Data
 The LINCS data are available from the Gene Expression Omnibus (GEO) with accession codes GSE70138 and GSE70138 (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70138; https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70138)
