@@ -20,7 +20,7 @@ Due to the requirement of cmapPy, the script should be run with Python2.7 to avo
 ## Data
 The LINCS data are available from the Gene Expression Omnibus (GEO) with accession codes GSE70138 and GSE70138 (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70138; https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70138)
 
-The paper "A next generation connectivity map: L1000 platform and the first 1,000,000 profiles" provides the perturbagen class (PCL) information for small molecule perturpagens.
+The perturbagen class (PCL) information of small molecule perturbagens can be found in the paper "A next generation connectivity map: L1000 platform and the first 1,000,000 profiles" Supplementary Table S7.
 
 ## Files
 ### deep_generative_model_LINCS.ipynb
