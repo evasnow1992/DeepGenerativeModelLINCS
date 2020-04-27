@@ -4,7 +4,7 @@ Python code for the manuscript "Learning to Encode Cellular Responses to Systema
 This repository provides Python code for preprocessing LINCS L1000 gene expression data and applying two deep generative models, Variational AutoEncoder (VAE) and Supervised Vector-Quantized Variational AutoEncoder (S-VQ-VAE) on the data for learning latent representations.
 VAE and S-VQ-VAE are implemented with Pytorch.
 
-## Required enviroment and packages
+## Required environment and packages
 The code was tested on the following packages
 * numpy 1.16.2
 * matplotlib 3.0.3
