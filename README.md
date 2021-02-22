@@ -32,7 +32,7 @@ Code for preprocessing LINCS L1000 data and training VAE and S-VQ-VAE on three d
 
 **Both dataset** (SMGP dataset in the manuscript): a merge of the SM dataset and GP dataset while excluding 4,649 samples perturbed by two proteasome inhibitors, bortezomib, and MG-132.
 
-### deep_generative model_LINCS_analysis.ipynb
+### deep_generative_model_LINCS_analysis.ipynb
 Code for analyzing the latent representations of expression profiles learned with VAEs and S-VQ-VAEs. Analyses include:
 * Identify signature nodes from the top hidden layer of SMGP-trained VAE model encoder.
 * Compare the distribution of data generated with VAEs with real data.
@@ -40,6 +40,10 @@ Code for analyzing the latent representations of expression profiles learned wit
 * Classify PCL based on different latent representations of expression profiles.
 * Predict drug-targets with latent representations of expression profiles.
 * Reveal correlations between PCL global representations learned with S-VQ-VAE.
+
+### drug_gene_target_prediction_handle.ipynb
+Concise code extracted from deep_generative_model_LINCS_analysis.ipynb for drug gene target prediction using VAE generated representations.
+Users may modify section 2.2 to search for drugs of interest. The known gene targets of each drug are required to be provided. The top10 ranks and mean rank of the top-ranked target gene across all drug perturbed samples are reported.
 
 ### VAE_encode_SMP.pth, VAE_decode_SMP.pth, VAE_mu_SMP.pth, and VAE_logvar_SMP.pth
 Pretrained VAE model on SMP dataset.
